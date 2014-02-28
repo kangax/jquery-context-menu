@@ -1,0 +1,16 @@
+{
+  "name": "jquery-context-menu",
+  "version": "0.1.1",
+  "authors": [
+    "kangax"
+  ],
+  "description": "Adaptation of Proto.Menu -- simple context menu script",
+  "main": "jquery-context-menu.js",
+  "keywords": [
+    "jquery",
+    "simple",
+    "context",
+    "menu"
+  ],
+  "license": "MIT"
+}
