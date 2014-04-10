@@ -1,6 +1,6 @@
 {
   "name": "jquery-context-menu",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "authors": [
     "kangax"
   ],
@@ -15,5 +15,8 @@
     "context",
     "menu"
   ],
+  "dependencies": {
+    "jquery": ">1.7.* <2.0.0"
+  },
   "license": "MIT"
 }
