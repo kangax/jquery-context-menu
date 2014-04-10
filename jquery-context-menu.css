@@ -1,0 +1,150 @@
+div.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: verdana;
+}
+
+div.menu a {
+  display: block;
+  text-decoration: none;
+  cursor: default;
+  outline: none;
+  font-size: 11px;
+}
+
+.menu .separator {
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  display: block;
+  font-size: 1px;
+}
+
+.menu ul, .menu li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu li {
+  list-style-position: outside;
+}
+
+.menu.firefox {
+  width: 12em;
+  background: #f4f5eb;
+  border-top: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #666666;
+  border-bottom: 1px solid #666666;
+  padding: 2px 0;
+}
+
+.menu.firefox a {
+  color: #555555;
+  padding: 4px 15px;
+  margin: 0 2px;
+}
+
+.menu.firefox a:hover {
+  background: #000066;
+  color: white;
+}
+
+.menu.firefox a.disabled {
+  color: #bbbbbb;
+}
+
+.menu.firefox a.disabled:hover {
+  background: #f4f5eb;
+  color: #bbbbbb;
+}
+
+.menu.firefox .separator {
+  border-bottom: 1px solid white;
+  background: #999999;
+  margin: 2px 4px;
+}
+
+.menu.google {
+  width: 10.5em;
+  background: white;
+  border-top: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  border-bottom: 1px solid #676767;
+  border-right: 1px solid #676767;
+}
+
+.menu.google a {
+  color: #0000cc;
+  text-decoration: none;
+  padding: 2px 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.menu.google a:hover {
+  background: #d3e3fe;
+}
+
+.menu.google a.disabled {
+  color: #bbbbbb;
+}
+
+.menu.google a.disabled:hover {
+  background: white;
+  color: #bbbbbb;
+}
+
+.menu.google .separator {
+  background: #cccccc;
+}
+
+.menu.desktop {
+  background: #eff3f6;
+  border: 1px solid #999999;
+}
+
+.menu.desktop ul, .menu.desktop li {
+  margin: 0;
+  padding: 0;
+}
+
+.menu.desktop li.separator {
+  height: 1px;
+}
+
+.menu.desktop a {
+  color: #555555;
+  padding: 3px 10px;
+  margin: 0;
+  text-shadow: white 1px 1px 1px;
+  text-align: left;
+}
+
+.menu.desktop a.disabled {
+  opacity: 0.25;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=25);
+  filter: alpha(opacity= 25);
+  zoom: 1;
+}
+
+.menu.desktop li.separator {
+  border-bottom: 1px solid white;
+  background: #aaaaaa;
+  margin: 1px 1px 0 1px;
+  line-height: 1px !important;
+}
+
+.menu.desktop a.enabled:hover {
+  background-color: #4d575f;
+  color: white;
+  text-shadow: none;
+}
+
+.menu.desktop a.disabled:hover {
+  background-color: #eff3f6;
+  color: #555555;
+  text-shadow: white 1px 1px 1px;
+}
